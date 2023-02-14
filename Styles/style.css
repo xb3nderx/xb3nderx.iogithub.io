@@ -1,0 +1,179 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    background-color: #FB8484;
+    margin: 0%;
+    overflow: hidden;
+}
+
+header {
+    max-width: 100%;
+    max-height: 344px;
+    margin:0;
+    border: 0;
+    padding: 0;
+}
+
+header>img {
+    max-width: 100%; 
+    min-width: 100%;
+    max-height: 344px;
+    min-height: 344px;
+    object-fit: none;
+}
+
+hr {
+    background-color: #FD2F1B;
+    height: 25px;
+    border: 0px;
+    margin: 0px;
+    display: block;
+}
+
+hr.upper {
+
+    box-shadow: 0px 12px 19px 0px rgb(0 0 0 / 49%);
+}
+
+hr.lower {
+    box-shadow: 0px -12px 19px 0px rgb(0 0 0 / 49%);
+}
+
+section {
+    position:fixed;
+    margin-top: 2%;
+    width: 80%;
+    vertical-align: middle;
+    padding-top: auto;
+    padding-right: 20%;
+}
+
+.content {
+    width: 66%;
+    height: 60%;
+    float: right;
+    visibility: hidden; 
+    overflow-y: auto;
+    overflow-x: hidden;
+    color: #1B5851;
+    margin:auto;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+}
+
+
+nav{
+    width:33%;
+    position: fixed;
+
+}
+
+nav p {
+    font-size: 30px;
+    color:#FFFFFF;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+
+footer {
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   height: 105px;   /* Height of the footer */
+   text-align: center;
+   color:#1B5851;
+   font-size: 20px;
+}
+footer h5 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+footer a {
+    color: #1B5851;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+footer h6 {
+    margin-top: 0;
+}
+
+
+.rectangulo {
+    height:80%;
+    width: 55%;
+    position: relative;
+    background-color: #FF4E3D;
+    margin: 15% 5% 5% 10%;
+    padding: 2%;
+    text-align: left;
+    display: block;
+    border-radius: 25px;
+    box-shadow: -11px 14px 19px 0px rgb(0 0 0 / 49%);
+} 
+
+
+
+.content h1 {
+    color: #2F8276;
+    font-size: 100px;
+    padding-top: 70px;
+    padding-left: 0;
+    margin: 0;
+  
+
+}
+
+.content h3 {
+   
+    font-size: 60px;
+    margin: 0;
+    /* padding-top: 70px;
+    padding-left: 0; */
+}
+
+.content h4 {
+    font-size: 33px;
+    text-align: left;
+    font-style: italic;
+    margin-bottom: 15px;
+    margin-top: auto;
+
+
+}
+
+.content p {
+    color: #1B5851;
+    max-width: 100%;
+    text-align: justify;
+    text-indent: 2%;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+ul {
+    text-align: justify;
+    font-size: 20px;
+}
+
+ul span {
+    font-weight: bold;
+}
+
+#experiencia {
+    padding-top: 5%;
+}
+
+#home {
+    padding-right: 25%;
+}
+
